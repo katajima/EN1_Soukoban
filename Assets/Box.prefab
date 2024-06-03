@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1150482233149487842}
   - component: {fileID: -8968482633652146818}
   - component: {fileID: 931460793405186019}
-  - component: {fileID: 3648543741234895072}
+  - component: {fileID: 2000786268679441675}
   m_Layer: 0
   m_Name: Box
   m_TagString: Box
@@ -54,7 +54,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31c4e8aa65ff7504bb149000ed7a8a8a, type: 2}
+  - {fileID: -876546973899608171, guid: 46496c9a3beeae2429744abf288a7978, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -83,18 +83,16 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 115044866330009161}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &3648543741234895072
+  m_Mesh: {fileID: -5495902117074765545, guid: 46496c9a3beeae2429744abf288a7978, type: 3}
+--- !u!114 &2000786268679441675
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 115044866330009161}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ab65955c1b523143a7cca8059a7d34d, type: 3}
+  m_Script: {fileID: 11500000, guid: 8702b49d5a666a94d9c5a1eb143d8957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPrefab: {fileID: 0}
-  BoxPrefab: {fileID: 0}
